@@ -1,0 +1,27 @@
+{
+  "compass": "config.rb",
+  "site": "_site/",
+  "source": "source/",
+  "sass": "_assets/sass/",
+  "js": "_assets/js/",
+  "img": "_assets/images/",
+  "fonts": "_assets/fonts/",
+  "bower": "_assets/bower/",
+  "dest": {
+    "css": "source/assets/css/",
+    "js": "source/assets/js/",
+    "img": "source/assets/images/",
+    "fonts": "source/assets/fonts/"
+  },
+  "autoprefixer_browsers": [
+    "ie >= 10",
+    "ie_mob >= 10",
+    "ff >= 30",
+    "chrome >= 34",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4.4",
+    "bb >= 10"
+  ]
+}

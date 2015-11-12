@@ -1,0 +1,12 @@
+<header class="header{% if page.slug == 'home' %} alt{% endif %}">
+  <div class="container">
+    <h1><a href="{{ "/" | prepend: site.baseurl }}"><strong>nandomoreira</strong>.me</a></h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+        <li><a href="#!" data-modal="modalSearch"><i class="fa fa-search"></i></a></li>
+        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank"><i class="fa fa-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

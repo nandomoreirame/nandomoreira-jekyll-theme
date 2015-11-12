@@ -1,0 +1,58 @@
+/*====================================
+=            Banner style            =
+====================================*/
+
+.banner {
+  padding: 8em 2.5em 4em;
+  background: #2B7369 url("/assets/images/banner.png") center top fixed;
+  background-size: cover;
+  line-height: 1.75;
+  text-align: center;
+
+  :last-child {
+    margin-bottom: 0;
+  }
+
+  img {
+    padding: 3px;
+    border: 1px solid rgba($white-color, .3);
+  }
+
+  h2 {
+    font-family: $font-family-base;
+    color: #aaa;
+    margin-bottom: 1.75em;
+    font-size: 1.4em;
+    text-transform: none;
+    font-weight: 400;
+
+    strong {
+      color: #fff;
+      display: block;
+      font-weight: 800;
+      font-size: 1.2em;
+      line-height: 1.35;
+      text-transform: uppercase;
+    }
+  }
+
+  @include media($screen-tablet) {
+    padding: 10em 1.6em;
+
+    h2 strong {
+      font-size: 1.6em;
+    }
+  }
+
+  @include media($screen-desktop) {
+    padding: 10em 1.6em;
+
+    h2 {
+      font-size: 1.6em;
+
+      strong {
+        font-size: 2.2em;
+      }
+    }
+  }
+}

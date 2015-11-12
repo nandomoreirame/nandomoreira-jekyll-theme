@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% if site.tags[page.slug] %}
+
+  {% for post in site.tags[page.slug] %}
+    {% include article.html %}
+  {% endfor %}
+
+{% else %}
+
+  <article class="post txt-center">
+      <p>There are no articles for tag: <strong>{{ page.title }}</strong></p>
+  </article>
+
+{% endif %}

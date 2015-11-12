@@ -1,0 +1,18 @@
+---
+layout: default
+title: Home
+post_class: page-template
+slug: home
+---
+
+<article>
+  <a href="http://leokz.com/campanha/" class="post alert txt-center" target="_blank">
+    <h2>Download the nandomoreira.me Jekyll theme</h2>
+  </a>
+</article>
+
+{% for post in paginator.posts %}
+  {% include article.html %}
+{% endfor %}
+
+{% include pagination.html %}

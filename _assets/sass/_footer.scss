@@ -1,0 +1,76 @@
+/*====================================
+=            Footer Style            =
+====================================*/
+
+.footer {
+  padding: 5em 0 3em;
+  background: #f6f6f6;
+  text-align: center;
+
+  p {
+    small {
+      color: #999;
+    }
+
+    @include media($screen-desktop) {
+      padding-left: 6em;
+      padding-right: 6em;
+    }
+  }
+
+  .icons {
+    margin-bottom: 3em;
+    display: none;
+
+    @include media($screen-tablet) {
+      display: inline-block;
+    }
+
+    li {
+      display: inline-block;
+      padding-right: 2.5em;
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: #999;
+      border: 2px solid #ddd;
+      @include border-radius(50%);
+      text-align: center;
+      display: inline-block;
+      width: 55px;
+      height: 55px;
+      line-height: 60px;
+
+      .fa {
+        font-size: 1.6em;
+      }
+
+      &:hover,
+      &:active {
+        color: #fff;
+        border-color: transparent;
+
+        &.icon-github {
+          background-color: #222;
+        }
+        &.icon-facebook {
+          background-color: #3765A3;
+        }
+        &.icon-twitter {
+          background-color: #5EA9DD;
+        }
+        &.icon-instagram {
+          background-color: #323232;
+        }
+        &.icon-linkedin {
+          background-color: #0274B3;
+        }
+      }
+    }
+  }
+}

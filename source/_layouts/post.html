@@ -1,0 +1,69 @@
+---
+layout: default
+disqus: false
+archive: false
+post_class: post-template
+slug: single
+comments: true
+---
+
+<article class="post" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+    <div class="post-meta">
+      <time datetime="2015-10-13">
+        <i class="fa fa-calendar-o"></i> <time datetime="{{ page.date | date:"%Y-%m-%d" }}"> {{ page.date | date:"%Y-%m-%d" }}
+      </time>
+      <span>
+        <i class="fa fa-comments"></i> <a href="{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}">Leave a comment</a>
+      </span>
+      <span>
+        {% assign post = page %}
+        {% if post.categories.size > 0 %}
+          {% capture categories_content %}<i class="fa fa-folder-open-o"></i> {% endcapture %}
+          {% for post_category in post.categories %}
+            {% for data_category in site.data.categories %}
+              {% if data_category.slug == post_category %}
+                {% assign category = data_category %}
+              {% endif %}
+            {% endfor %}
+
+            {% if category %}
+              {% capture categories_content_temp %}{{ categories_content }}<a href="/category/{{ category.slug }}/">{{ category.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+              {% assign categories_content = categories_content_temp %}
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% assign categories_content = '' %}
+        {% endif %}
+        {{ categories_content }}
+      </span>
+    </div>
+  </header>
+
+  {% if page.cover %}
+    <figure class="post-photo">
+      <img src="{{ page.cover }}" alt="{{ page.title }}" title="{{ page.title }}">
+    </figure>
+  {% endif %}
+
+  {{content}}
+
+  <footer class="post-footer">
+    {% if site.author %}
+    <section class="author">
+      <h4>{{ site.author.name }}</h4>
+      <p>{{ site.author.bio }}</p>
+    </section>
+    {% endif %}
+
+    {% include share.html %}
+
+    {% if site.comments and page.comments %}
+      {% include comments.html %}
+    {% endif %}
+
+  </footer>
+
+</article>

@@ -1,0 +1,101 @@
+//
+// Search
+//
+
+.search-label {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: $font-family-base;
+  text-transform: uppercase;
+  color: $white-color;
+  @include font-size(16px);
+  margin-top: 26px;
+
+  @media only screen and (max-width: 480px) {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.search-container {
+  padding: 7em 10em 0;
+  color: $white-color;
+
+  ul {
+    list-style: none;
+    padding: 15px 0;
+    margin: 10px 0;
+  }
+
+  li {
+    border-bottom: 1px solid rgba(#000, .2);
+    padding: 10px 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: $white-color;
+    border-top: 1px solid transparent;
+
+    &:hover {
+      border-top-color:  $white-color;
+    }
+  }
+
+  input[type="text"] {
+    text-align: center;
+    font-family: $font-family-base;
+    width: 100%;
+    padding: .2em 0;
+    @include font-size(60px);
+    font-weight: 300;
+    border: 0;
+    border-bottom: 1px solid rgba($white-color, .65);
+    outline: 0;
+    background-color: transparent;
+
+    &:focus,
+    &:active {
+      box-shadow: none  !important;
+      outline: none !important;
+    }
+  }
+
+  ::-webkit-input-placeholder {
+    text-transform: uppercase;
+    color: $white-color;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    text-transform: uppercase;
+    color: $white-color;
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+    text-transform: uppercase;
+    color: $white-color;
+  }
+  :-ms-input-placeholder {
+    text-transform: uppercase;
+    color: $white-color;
+  }
+}
+
+@media only screen and (min-width: 460px) and (max-width: 860px) {
+  .search-container {
+    padding: 4em 3px;
+
+    input[type="text"] {
+      width: 100%;
+      @include font-size(54px);
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .search-container {
+    padding: 3em;
+
+    input[type="text"] {
+      @include font-size(26px);
+    }
+  }
+}

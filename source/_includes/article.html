@@ -1,0 +1,39 @@
+
+<article class="post" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+  <header class="post-header">
+    <h1 class="post-title"><a href="{{ post.url }}" title="Permalink to {{ post.title }}">{{ post.title }}</a></h1>
+  </header>
+
+  <p><a href="{{ post.url }}" title="Permalink to {{ post.title }}" class="read-more">{{ post.content | strip_html | truncatewords: 50 }}</a></p>
+
+  <footer class="post-meta">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
+      <i class="fa fa-calendar-o"></i> {{ page.date | date:"%Y-%m-%d" }}
+    </time>
+
+    <span>
+      <i class="fa fa-comments"></i> <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Leave a comment</a>
+    </span>
+
+    <span>
+        {% if post.categories.size > 0 %}
+          {% capture categories_content %}<i class="fa fa-folder-open-o"></i> {% endcapture %}
+          {% for post_category in post.categories %}
+            {% for data_category in site.data.categories %}
+              {% if data_category.slug == post_category %}
+                {% assign category = data_category %}
+              {% endif %}
+            {% endfor %}
+
+            {% if category %}
+              {% capture categories_content_temp %}{{ categories_content }}<a href="/category/{{ category.slug }}/">{{ category.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+              {% assign categories_content = categories_content_temp %}
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% assign categories_content = '' %}
+        {% endif %}
+        {{ categories_content }}
+    </span>
+  </footer>
+</article>

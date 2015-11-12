@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fernando Moreira | Desenvolvimento Web e tudo mais..</title>
+    <description>Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript</description>
+    <link>http://nandomoreira.me/</link>
+    <atom:link href="http://nandomoreira.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 12 Nov 2015 16:42:47 -0200</pubDate>
+    <lastBuildDate>Thu, 12 Nov 2015 16:42:47 -0200</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>The quick, brown fox jumps over a lazy dog</title>
+        <description>&lt;p&gt;The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz.&lt;/p&gt; &lt;p&gt;Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex.&lt;/p&gt; &lt;p&gt;Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! “Now fax quiz Jack! “ my...</description>
+        <pubDate>Thu, 12 Nov 2015 14:42:24 -0200</pubDate>
+        <link>http://nandomoreira.me/the-quick-brown-fox-jumps-over-a-lazy-dog</link>
+        <guid isPermaLink="true">http://nandomoreira.me/the-quick-brown-fox-jumps-over-a-lazy-dog</guid>
+        
+        <category>welcome</category>
+        
+        
+        <category>welcome</category>
+        
+      </item>
+    
+      <item>
+        <title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.&lt;/p&gt; &lt;p&gt;Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.&lt;/p&gt; &lt;p&gt;Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,...</description>
+        <pubDate>Thu, 12 Nov 2015 14:41:50 -0200</pubDate>
+        <link>http://nandomoreira.me/lorem-ipsum-dolor-sit-amet-consectetuer-adipiscing-elit</link>
+        <guid isPermaLink="true">http://nandomoreira.me/lorem-ipsum-dolor-sit-amet-consectetuer-adipiscing-elit</guid>
+        
+        <category>welcome</category>
+        
+        
+        <category>welcome</category>
+        
+      </item>
+    
+      <item>
+        <title>A wonderful serenity has taken possession of my entire soul</title>
+        <description>&lt;p&gt;A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.&lt;/p&gt; &lt;p&gt;I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.&lt;/p&gt; &lt;p&gt;I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.&lt;/p&gt; &lt;p&gt;When, while the lovely valley teems with...</description>
+        <pubDate>Thu, 12 Nov 2015 14:39:18 -0200</pubDate>
+        <link>http://nandomoreira.me/a-wonderful-serenity-has-taken-possession-of-my-entire-soul</link>
+        <guid isPermaLink="true">http://nandomoreira.me/a-wonderful-serenity-has-taken-possession-of-my-entire-soul</guid>
+        
+        <category>welcome</category>
+        
+        
+        <category>welcome</category>
+        
+      </item>
+    
+      <item>
+        <title>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</title>
+        <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt; &lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt; &lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to...</description>
+        <pubDate>Thu, 12 Nov 2015 14:38:20 -0200</pubDate>
+        <link>http://nandomoreira.me/far-far-away-behind-the-word-mountains-far-from-the-countries-vokalia-and-consonantia</link>
+        <guid isPermaLink="true">http://nandomoreira.me/far-far-away-behind-the-word-mountains-far-from-the-countries-vokalia-and-consonantia</guid>
+        
+        <category>welcome</category>
+        
+        
+        <category>welcome</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt; &lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt; &lt;p&gt;Jekyll also offers powerful support for...</description>
+        <pubDate>Thu, 12 Nov 2015 14:08:24 -0200</pubDate>
+        <link>http://nandomoreira.me/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://nandomoreira.me/welcome-to-jekyll/</guid>
+        
+        <category>welcome</category>
+        
+        <category>hello-world</category>
+        
+        
+        <category>welcome</category>
+        
+      </item>
+    
+  </channel>
+</rss>

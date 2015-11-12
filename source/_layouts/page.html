@@ -1,0 +1,22 @@
+---
+layout: default
+post_class: page-template
+---
+
+<div class="post" itemprop="mainContentOfPage">
+
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+  </header>
+
+  {{content}}
+
+</div>
+
+{% if page.slug == "error404" %}
+
+  {% for post in site.posts limit:6 %}
+    {% include article.html %}
+  {% endfor %}
+
+{% endif %}

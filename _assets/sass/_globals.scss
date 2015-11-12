@@ -1,0 +1,334 @@
+/*======================================
+=            Globals styles            =
+======================================*/
+// @import url("//fonts.googleapis.com/css?family=Raleway:400,700");
+@import url("//fonts.googleapis.com/css?family=Droid+Sans:400,700");
+@import url("//fonts.googleapis.com/css?family=Droid+Serif:400,700");
+
+* {
+  &,
+  &:before,
+  &:after {
+    @include box-sizing(border-box);
+  }
+}
+
+html,
+body {
+  height: 100%;
+  max-height: 100%;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  background: $bg-color;
+  color: $txt-color;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-weight: 400;
+  line-height: $line-height;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: .01em;
+}
+
+input,
+select,
+textarea {
+  color: #666;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-weight: 400;
+  line-height: 2em;
+}
+
+a {
+  color: $link-color;
+  text-decoration: underline;
+
+  &:hover {
+    @include transition(color .2s linear);
+    text-decoration: none;
+    color: $link-hover-color;
+  }
+}
+
+strong {
+  color: #484848;
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+p {
+  margin: 0 0 .4em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #484848;
+  font-weight: 700;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+  font-family: $font-family-serif;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  small {
+    font-size: 60%;
+  }
+}
+
+h1 {
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-size: 1.75em;
+  line-height: 1.5em;
+}
+
+h3 {
+  font-size: 1.35em;
+  line-height: 1.5em;
+}
+
+h4 {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+h5 {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+h6 {
+  font-size: 0.7em;
+  line-height: 1.5em;
+}
+
+sub {
+  font-size: 0.8em;
+  position: relative;
+  top: 0.5em;
+}
+
+sup {
+  font-size: 0.8em;
+  position: relative;
+  top: -0.5em;
+}
+
+hr {
+  border: 0;
+  border-bottom: solid 1px rgba(144, 144, 144, 0.25);
+  margin: 2em 0;
+
+  &.major {
+    margin: 3em 0;
+  }
+}
+
+blockquote {
+  border-left: solid 4px $primary-color;
+  font-style: italic;
+  margin: 0 0 2em 0;
+  padding: 0.5em 0 0.5em 2em;
+}
+
+q, blockquote {
+  small {
+    font-size: 60%;
+  }
+}
+
+q {
+  quotes: "«" "»";
+
+  &:before {
+    content: open-quote;
+  }
+  &:after {
+    content: close-quote;
+  }
+}
+
+code {
+  background: none;
+  border-radius: 0;
+  border: none;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0;
+}
+
+pre {
+  -webkit-overflow-scrolling: touch;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0;
+
+  code {
+    // display: block;
+    line-height: 1.75em;
+    // padding: 1em 1.5em;
+    // overflow-x: auto;
+  }
+}
+
+.clearfix {
+  @extend %clearfix;
+}
+
+/* Container */
+.container {
+  @extend %clearfix;
+  padding: {
+    left: $gutter-padding;
+    right: $gutter-padding;
+  };
+  margin: {
+    left: auto;
+    right: auto;
+  };
+
+  @include media($screen-tablet) {
+    width: $container-tablet-width;
+  }
+
+  @include media($screen-desktop) {
+    width: $container-desktop-width;
+  }
+}
+
+.wrapper {
+  padding: 3em 0;
+}
+
+
+// Gist
+//
+
+.gist {
+  table {
+    margin: 0;
+    @include font-size(14px);
+  }
+
+  .line-number {
+    min-width: 25px;
+    @include font-size(11px);
+  }
+}
+
+// Card
+//
+
+.card {
+  @extend %clearfix;
+  background-color: $white-color;
+  padding: em(25px);
+  @include box-shadow(0 0 0 0, 0 6px 12px rgba(34,34,34, .1));
+
+  @include media($screen-tablet) {
+    margin: em(25px) 0;
+  }
+}
+
+.alert {
+  padding: 5em;
+  display: block;
+  @include transition(background-color .2s linear, color .2s linear, border-color .2s linear);
+  background-color: lighten($primary-color, 5%);
+
+  &, a {
+    text-decoration: none;
+  }
+
+  h2 {
+    color: $white-color;
+    margin: 0;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $primary-color;
+  }
+}
+
+.dot {
+  @include border-radius(50%);
+}
+
+.txt-white {
+  color: $white-color !important;
+}
+.txt-center {
+  text-align: center;
+}
+
+.scroll-down {
+  display: block;
+  position: absolute;
+  z-index: 100;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  width: 34px;
+  height: 34px;
+  @include font-size(36px);
+  text-align: center;
+  text-decoration: none;
+  color: rgba($white-color, .7);
+  border: none;
+  display: none;
+
+  &, &:hover, &:focus {
+    color: $white-color;
+  }
+
+  @include media($screen-desktop) {
+    display: block;
+  }
+}
+
+.scroll-up {
+  position: fixed;
+  right: 15px;
+  bottom: -80px;
+  @include font-size(36px);
+  @include transition(all .2s linear);
+  font-size: 2em !important;
+
+  &, &:hover, &:focus {
+    color: $txt-color;
+  }
+}
+
+.scroll-down,
+.scroll-up {
+  &:hover {
+    -webkit-animation: none;
+    animation: none;
+  }
+
+  &, &:hover, &:focus {
+    text-decoration: none;
+    border: none;
+  }
+}

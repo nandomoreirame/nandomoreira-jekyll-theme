@@ -1,0 +1,65 @@
+//
+// pagination
+//
+
+.pagination {
+  position: relative;
+  margin: em(40px) auto;
+  text-align: center;
+
+  a {
+    color: lighten($txt-color, 5%);
+    @include transition(all .2s linear);
+  }
+}
+
+.older-posts,
+.newer-posts {
+  position: relative;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  @extend .button;
+  text-decoration: none;
+  @include font-size(13px);
+  color: $txt-color !important;
+  border: 1px solid $silver-color !important;
+  background-color: $white-color !important;
+  padding: {
+    top: 6px;
+    bottom: 6px;
+  };
+
+  &.icon:before {
+    color: #aaa;
+  }
+
+  @include media($screen-phone) {
+    position: absolute;
+    width: auto;
+    display: inline-block;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: transparent !important;
+  }
+}
+
+.older-posts {
+  left: 0;
+}
+
+.newer-posts {
+  right: 0;
+}
+
+.page-number {
+  color: lighten($txt-color, 5%);
+  display: inline-block;
+  padding: 8px 0;
+  min-width: 100px;
+  @include font-size(13px);
+}
