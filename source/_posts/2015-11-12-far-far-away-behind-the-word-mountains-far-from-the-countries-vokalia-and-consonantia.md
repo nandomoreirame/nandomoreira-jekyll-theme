@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia"
-permalink: far-far-away-behind-the-word-mountains-far-from-the-countries-vokalia-and-consonantia
 date: 2015-11-12 16:38:20
 comments: true
 description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia"

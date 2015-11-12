@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "The quick, brown fox jumps over a lazy dog"
-permalink: the-quick-brown-fox-jumps-over-a-lazy-dog
 date: 2015-11-12 16:42:24
 comments: true
 description: "The quick, brown fox jumps over a lazy dog"

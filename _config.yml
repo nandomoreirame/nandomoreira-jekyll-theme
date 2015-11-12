@@ -6,7 +6,7 @@ paginate: 2 #6
 comments: true
 paginate_path: "/page/:num"
 
-baseurl: ""
+baseurl: "/nandomoreira-jekyll-theme" # change to empty string ""
 domain_name: nandomoreira.me
 google_analytics: UA-00000000-1
 
@@ -47,7 +47,7 @@ thought:
 # Plugin: jekyll-assets
 assets:
   dirname: /assets
-  baseurl: /assets/
+  baseurl: /nandomoreira-jekyll-theme/assets/ # change to /assets/
   sources:
     - assets/images
     - assets/fonts

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "A wonderful serenity has taken possession of my entire soul"
-permalink: a-wonderful-serenity-has-taken-possession-of-my-entire-soul
 date: 2015-11-12 16:39:18
 comments: true
 description: "A wonderful serenity has taken possession of my entire soul"

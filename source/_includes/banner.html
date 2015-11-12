@@ -1,6 +1,6 @@
 <section class="banner">
 
-  <img src="{{ site.author.image }}" alt="author thumb" class="dot animated hinge fadeInDown">
+  <img src="{{ site.author.image | prepend: site.baseurl  }}" alt="author thumb" class="dot animated hinge fadeInDown">
 
   <h2 class="animated hinge fadeInDown" itemscope itemtype="http://schema.org/Person">Hello, my name is <strong itemprop="name">{{ site.name }}</strong>I am <em itemprop="jobTitle">Front-end</em> and like coffee!</h2>
 
