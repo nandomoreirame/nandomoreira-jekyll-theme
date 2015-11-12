@@ -8,7 +8,7 @@ paginate_path: "/page/:num"
 
 baseurl: ""
 domain_name: nandomoreira.me
-google_analytics: UA-52446115-1
+google_analytics: UA-00000000-1
 
 source:      source
 destination: _site
@@ -24,7 +24,7 @@ meta_description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, 
 meta_keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimizacao, performance"
 url: http://nandomoreira.me
 production_url: http://nandomoreira.me
-repo: https://github.com/nandomoreirame/nandomoreira.me-jekyll-theme
+repo: https://github.com/nandomoreirame/nandomoreira-jekyll-theme
 disqus_shortname: "fernandomoreira"
 rss_path: source/
 author:
