@@ -6,6 +6,7 @@ require "jekyll"
 
 # Change your GitHub reponame
 GITHUB_REPONAME = "nandomoreirame/nandomoreira-jekyll-theme"
+GITHUB_REPO_BRANCH = "gh-pages"
 
 SOURCE = "source/"
 DEST   = "_site"
@@ -37,12 +38,12 @@ task :publish => [:generate] do
     Dir.chdir tmp
 
     system "git init"
-    system "git checkout --orphan gh-pages"
+    system "git checkout --orphan #{GITHUB_REPO_BRANCH}"
     system "git add ."
     message = "Site updated at #{Time.now.utc}"
     system "git commit -am #{message.inspect}"
     system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
-    system "git push origin gh-pages --force"
+    system "git push origin #{GITHUB_REPO_BRANCH} --force"
 
     Dir.chdir pwd
   end

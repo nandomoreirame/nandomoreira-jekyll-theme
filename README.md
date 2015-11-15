@@ -4,7 +4,8 @@ My personal website where I talk about front-end development like HTML5, CSS3, J
 
 ## Setup
 
-> :warning: It requires inslated node and npm, ruby and rubygems
+> :warning:
+  It requires inslated node/npm and ruby/rubygems installed
 
 ### In the terminal run the commands
 
@@ -42,7 +43,12 @@ Access, [localhost:4000](http://localhost:4000/)
 $ gulp
 ```
 
-Enjoy!
+---
+
+## Deploy in Github pages in 2 steps
+
+1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
+2. Run `rake` or `rake publish` for build and publish on Github
 
 ---
 
@@ -53,4 +59,11 @@ Enjoy!
 
 ---
 
-## [MIT](/LICENSE) License
+### Copyright and license
+
+It is under [the MIT license](/LICENSE).
+
+> :warning:
+  Please remove metas `<meta name="robots" content="noindex">` and `<meta name="googlebot" content="noindex">` in `_layouts/default.html`
+
+Enjoy! :yum:
