@@ -1,6 +1,8 @@
-# [nandomoreira.me](http://nandomoreira.me/)
+# nandomoreira.me
 
 My personal website where I talk about front-end development like HTML5, CSS3, JavaScript and Wordpress, PHP and more.
+
+### [Preview](http://nandomoreira.me/nandomoreira-jekyll-theme/)
 
 ## Setup
 
@@ -62,8 +64,5 @@ $ gulp
 ### Copyright and license
 
 It is under [the MIT license](/LICENSE).
-
-> :warning:
-  Please remove metas `<meta name="robots" content="noindex">` and `<meta name="googlebot" content="noindex">` in `_layouts/default.html`
 
 Enjoy! :yum:
