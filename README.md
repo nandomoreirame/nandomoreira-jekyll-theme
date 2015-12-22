@@ -1,13 +1,8 @@
-# nandomoreira.me
-
-My personal website where I talk about front-end development like HTML5, CSS3, JavaScript and Wordpress, PHP and more.
+# nandomoreira.me jekyll theme
 
 ### [Preview](http://nandomoreira.me/nandomoreira-jekyll-theme/)
 
 ## Setup
-
-> :warning:
-  It requires inslated node/npm and ruby/rubygems installed
 
 ### In the terminal run the commands
 
