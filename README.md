@@ -1,6 +1,6 @@
 # nandomoreira.me jekyll theme
 
-### [Preview](http://github.nandomoreira.me/nandomoreira-jekyll-theme/)
+### [Preview](http://nandomoreira.me/nandomoreira-jekyll-theme/)
 
 ## Setup
 
