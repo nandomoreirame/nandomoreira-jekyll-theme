@@ -1,6 +1,6 @@
 # nandomoreira.me jekyll theme
 
-### [Preview](http://nandomoreira.me/nandomoreira-jekyll-theme/)
+### [Preview](https://nandomoreirame.github.io/nandomoreira-jekyll-theme/)
 
 ## Setup
 
@@ -49,10 +49,8 @@ $ gulp
 
 ---
 
-* [Jekyll](http://jekyllrb.com/);
-* [Jekyll Documentation](http://jekyllrb.com/docs/home/);
-* [Como definir URLs curtas no Jekyll](http://nandomoreira.me/urls-curtas-no-jekyll/);
-* [Adicionando Disqus ao seu projeto Jekyll](http://nandomoreira.me/adicionando-disqus-ao-seu-projeto-jekyll/);
+* [Jekyll](http://jekyllrb.com/)
+* [Jekyll Documentation](http://jekyllrb.com/docs/home/)
 
 ---
 
