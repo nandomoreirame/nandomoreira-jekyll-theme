@@ -1,6 +1,6 @@
-permalink   : /:title/
-markdown    : kramdown
-highlighter : pygments
+permalink: /:title/
+markdown: kramdown
+highlighter: pygments
 
 paginate: 2 #6
 comments: true
@@ -10,7 +10,7 @@ baseurl: "/nandomoreira-jekyll-theme" # change to empty string ""
 domain_name: nandomoreira.me
 google_analytics: UA-52446115-1
 
-source:      source
+source: source
 destination: _site
 
 # cover: /assets/images/header-cover.png
@@ -28,16 +28,16 @@ repo: https://github.com/nandomoreirame/nandomoreira-jekyll-theme
 disqus_shortname: "nandothemes"
 rss_path: source/
 author:
-  name      : Fernando Moreira
-  image     : /assets/images/author.jpg
-  email     : nandomoreira.me@gmail.com
-  url       : http://nandomoreira.me
-  facebook  : http://facebook.com/fernando.dev
-  twitter   : http://twitter.com/nandomoreirame
-  instagram : http://instagram.com/nandomoreira.me
-  github    : http://github.com/nandomoreirame
-  linkedin  : http://linkedin.com/in/nandomoreirame
-  bio       : "Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
+  name: Fernando Moreira
+  image: /assets/images/author.jpg
+  email: nandomoreira.me@gmail.com
+  url: http://nandomoreira.me
+  facebook: http://facebook.com/fernando.dev
+  twitter: http://twitter.com/nandomoreirame
+  instagram: http://instagram.com/nandomoreira.me
+  github: http://github.com/nandomoreirame
+  linkedin: http://linkedin.com/in/nandomoreirame
+  bio: "Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
 
 # thought
 thought:
